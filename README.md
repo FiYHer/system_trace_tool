@@ -12,6 +12,7 @@
 # 测试图片
 <h1 align="center">
 	<img src="demo.jpg" alt="">
+	<img src="a.PNG" alt="">
 	<br>
 </h1>
 
