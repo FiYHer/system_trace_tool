@@ -26,7 +26,7 @@ bool clear_trace(const wchar_t* name, unsigned long stamp)
 
 int main(int argc, char* argv[])
 {
-	clear_trace(L"the_smbois.sys", 0x611FACE5);
+	clear_trace(L"infinity_hook_pro.sys", 0x63E6046A);
 	system("pause");
 	return 0;
 }

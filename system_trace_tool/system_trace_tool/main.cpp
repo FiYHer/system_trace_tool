@@ -38,6 +38,8 @@ NTSTATUS communication_irp(PDEVICE_OBJECT device, PIRP irp)
 		{
 			trace::clear_cache(info->name, info->stamp);
 			trace::clear_unloaded_driver(info->name);
+			trace::clear_hash_bucket_list(info->name);
+			trace::clear_ci_ea_cache_lookaside_list();
 		}
 	}
 
